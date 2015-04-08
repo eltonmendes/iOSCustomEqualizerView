@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2786721AD5938F0000A7E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2786711AD5938F0000A7E4 /* main.m */; };
+		EC2786751AD5938F0000A7E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2786741AD5938F0000A7E4 /* AppDelegate.m */; };
+		EC2786781AD5938F0000A7E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2786771AD5938F0000A7E4 /* ViewController.m */; };
+		EC27867B1AD5938F0000A7E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2786791AD5938F0000A7E4 /* Main.storyboard */; };
+		EC27867D1AD5938F0000A7E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC27867C1AD5938F0000A7E4 /* Images.xcassets */; };
+		EC2786801AD5938F0000A7E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC27867E1AD5938F0000A7E4 /* LaunchScreen.xib */; };
+		EC27868C1AD5938F0000A7E4 /* iOSCustomEqualizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC27868B1AD5938F0000A7E4 /* iOSCustomEqualizerTests.m */; };
+		EC27869B1AD593AF0000A7E4 /* EqualizerCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC27869A1AD593AF0000A7E4 /* EqualizerCustomView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC2786861AD5938F0000A7E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2786641AD5938F0000A7E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC27866B1AD5938F0000A7E4;
+			remoteInfo = iOSCustomEqualizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC27866C1AD5938F0000A7E4 /* iOSCustomEqualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCustomEqualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2786701AD5938F0000A7E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2786711AD5938F0000A7E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC2786731AD5938F0000A7E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC2786741AD5938F0000A7E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC2786761AD5938F0000A7E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC2786771AD5938F0000A7E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC27867A1AD5938F0000A7E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC27867C1AD5938F0000A7E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC27867F1AD5938F0000A7E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC2786851AD5938F0000A7E4 /* iOSCustomEqualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCustomEqualizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC27868A1AD5938F0000A7E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC27868B1AD5938F0000A7E4 /* iOSCustomEqualizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSCustomEqualizerTests.m; sourceTree = "<group>"; };
+		EC2786991AD593AF0000A7E4 /* EqualizerCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualizerCustomView.h; sourceTree = "<group>"; };
+		EC27869A1AD593AF0000A7E4 /* EqualizerCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualizerCustomView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2786691AD5938F0000A7E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2786821AD5938F0000A7E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2786631AD5938F0000A7E4 = {
+			isa = PBXGroup;
+			children = (
+				EC27866E1AD5938F0000A7E4 /* iOSCustomEqualizer */,
+				EC2786881AD5938F0000A7E4 /* iOSCustomEqualizerTests */,
+				EC27866D1AD5938F0000A7E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC27866D1AD5938F0000A7E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC27866C1AD5938F0000A7E4 /* iOSCustomEqualizer.app */,
+				EC2786851AD5938F0000A7E4 /* iOSCustomEqualizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC27866E1AD5938F0000A7E4 /* iOSCustomEqualizer */ = {
+			isa = PBXGroup;
+			children = (
+				EC2786951AD593960000A7E4 /* EqualizerCustomView */,
+				EC2786731AD5938F0000A7E4 /* AppDelegate.h */,
+				EC2786741AD5938F0000A7E4 /* AppDelegate.m */,
+				EC2786761AD5938F0000A7E4 /* ViewController.h */,
+				EC2786771AD5938F0000A7E4 /* ViewController.m */,
+				EC2786791AD5938F0000A7E4 /* Main.storyboard */,
+				EC27867C1AD5938F0000A7E4 /* Images.xcassets */,
+				EC27867E1AD5938F0000A7E4 /* LaunchScreen.xib */,
+				EC27866F1AD5938F0000A7E4 /* Supporting Files */,
+			);
+			path = iOSCustomEqualizer;
+			sourceTree = "<group>";
+		};
+		EC27866F1AD5938F0000A7E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC2786701AD5938F0000A7E4 /* Info.plist */,
+				EC2786711AD5938F0000A7E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC2786881AD5938F0000A7E4 /* iOSCustomEqualizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC27868B1AD5938F0000A7E4 /* iOSCustomEqualizerTests.m */,
+				EC2786891AD5938F0000A7E4 /* Supporting Files */,
+			);
+			path = iOSCustomEqualizerTests;
+			sourceTree = "<group>";
+		};
+		EC2786891AD5938F0000A7E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC27868A1AD5938F0000A7E4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC2786951AD593960000A7E4 /* EqualizerCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				EC2786991AD593AF0000A7E4 /* EqualizerCustomView.h */,
+				EC27869A1AD593AF0000A7E4 /* EqualizerCustomView.m */,
+			);
+			name = EqualizerCustomView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC27866B1AD5938F0000A7E4 /* iOSCustomEqualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC27868F1AD5938F0000A7E4 /* Build configuration list for PBXNativeTarget "iOSCustomEqualizer" */;
+			buildPhases = (
+				EC2786681AD5938F0000A7E4 /* Sources */,
+				EC2786691AD5938F0000A7E4 /* Frameworks */,
+				EC27866A1AD5938F0000A7E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSCustomEqualizer;
+			productName = iOSCustomEqualizer;
+			productReference = EC27866C1AD5938F0000A7E4 /* iOSCustomEqualizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC2786841AD5938F0000A7E4 /* iOSCustomEqualizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2786921AD5938F0000A7E4 /* Build configuration list for PBXNativeTarget "iOSCustomEqualizerTests" */;
+			buildPhases = (
+				EC2786811AD5938F0000A7E4 /* Sources */,
+				EC2786821AD5938F0000A7E4 /* Frameworks */,
+				EC2786831AD5938F0000A7E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2786871AD5938F0000A7E4 /* PBXTargetDependency */,
+			);
+			name = iOSCustomEqualizerTests;
+			productName = iOSCustomEqualizerTests;
+			productReference = EC2786851AD5938F0000A7E4 /* iOSCustomEqualizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2786641AD5938F0000A7E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Mendes;
+				TargetAttributes = {
+					EC27866B1AD5938F0000A7E4 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EC2786841AD5938F0000A7E4 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EC27866B1AD5938F0000A7E4;
+					};
+				};
+			};
+			buildConfigurationList = EC2786671AD5938F0000A7E4 /* Build configuration list for PBXProject "iOSCustomEqualizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2786631AD5938F0000A7E4;
+			productRefGroup = EC27866D1AD5938F0000A7E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC27866B1AD5938F0000A7E4 /* iOSCustomEqualizer */,
+				EC2786841AD5938F0000A7E4 /* iOSCustomEqualizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC27866A1AD5938F0000A7E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC27867B1AD5938F0000A7E4 /* Main.storyboard in Resources */,
+				EC2786801AD5938F0000A7E4 /* LaunchScreen.xib in Resources */,
+				EC27867D1AD5938F0000A7E4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2786831AD5938F0000A7E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2786681AD5938F0000A7E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2786781AD5938F0000A7E4 /* ViewController.m in Sources */,
+				EC2786751AD5938F0000A7E4 /* AppDelegate.m in Sources */,
+				EC2786721AD5938F0000A7E4 /* main.m in Sources */,
+				EC27869B1AD593AF0000A7E4 /* EqualizerCustomView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2786811AD5938F0000A7E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC27868C1AD5938F0000A7E4 /* iOSCustomEqualizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2786871AD5938F0000A7E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC27866B1AD5938F0000A7E4 /* iOSCustomEqualizer */;
+			targetProxy = EC2786861AD5938F0000A7E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC2786791AD5938F0000A7E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC27867A1AD5938F0000A7E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC27867E1AD5938F0000A7E4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC27867F1AD5938F0000A7E4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC27868D1AD5938F0000A7E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC27868E1AD5938F0000A7E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2786901AD5938F0000A7E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSCustomEqualizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC2786911AD5938F0000A7E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSCustomEqualizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC2786931AD5938F0000A7E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOSCustomEqualizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSCustomEqualizer.app/iOSCustomEqualizer";
+			};
+			name = Debug;
+		};
+		EC2786941AD5938F0000A7E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOSCustomEqualizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSCustomEqualizer.app/iOSCustomEqualizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2786671AD5938F0000A7E4 /* Build configuration list for PBXProject "iOSCustomEqualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC27868D1AD5938F0000A7E4 /* Debug */,
+				EC27868E1AD5938F0000A7E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC27868F1AD5938F0000A7E4 /* Build configuration list for PBXNativeTarget "iOSCustomEqualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2786901AD5938F0000A7E4 /* Debug */,
+				EC2786911AD5938F0000A7E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC2786921AD5938F0000A7E4 /* Build configuration list for PBXNativeTarget "iOSCustomEqualizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2786931AD5938F0000A7E4 /* Debug */,
+				EC2786941AD5938F0000A7E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2786641AD5938F0000A7E4 /* Project object */;
+}
