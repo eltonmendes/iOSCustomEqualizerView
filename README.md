@@ -1,5 +1,5 @@
 # iOSCustomEqualizerView
-Custom equaliser with properties inspectable :)
+Custom equalizer with properties inspectable :)
 
 #Demo
 ![Alt text](http://cdn.makeagif.com/media/4-08-2015/WOixQh.gif "Optional title")
